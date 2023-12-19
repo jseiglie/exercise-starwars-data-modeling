@@ -1,6 +1,8 @@
+<!--hide-->
 # StarWars blog database (base de datos)
+<!--endhide-->
 
-**Importante**: Para realizar esta actividad necesitas hacer un `fork` de este repo en tu cuenta de **Github** y luego, abrir el *fork* en Gitpod.
+**Importante**: Para realizar esta actividad necesitas hacer un `fork` de [este repo](https://github.com/breatheco-de/exercise-starwars-data-modeling) en tu cuenta de **Github** y luego, abrir el *fork* en Codespaces (recomendado) o Gitpod.
 
 Dentro del archivo `src/models.py` encontrarás un par de clases que describen una base de datos de ejemplo.
 
@@ -38,7 +40,10 @@ El proyecto está utilizando la librería Python SQLAlchemy para generar la base
 - ¿Qué propiedades deben ir dentro de cada tabla? Por ejemplo: El usuario tiene email, password, fecha de subscripción, nombre, apellido, etc.
 - ¿Qué relaciones hay entre las tablas? ¿Cuántos planetas puede guardar un usuario?
    
-Nota: Recuerda que las relaciones pueden ser Uno-a-uno, Uno-a-muchos o Muchos-a-muchos.
+Nota: Recuerda que las relaciones pueden ser Uno-a-uno, Uno-a-muchos o Muchos-a-uno.
 
-- Porfavor agrega por lo menos 4 modelos y sus respectivas relaciones.
-- General el `diagrama.png` utilizando el comando `$ python3 models.py` en la consola.
+- Por favor agrega por lo menos 4 modelos y sus respectivas relaciones.
+- Genera el `diagrama.png` utilizando el comando `$ python src/models.py` en la consola.
+
+Este y otros proyectos son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Curso de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
+
